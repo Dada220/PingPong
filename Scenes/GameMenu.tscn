@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://cog56kylp6pul"]
+
+[ext_resource type="Script" path="res://Scripts/GameMenu.cs" id="1_e6orc"]
+
+[node name="GameMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_e6orc")
+
+[node name="Buttons" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Exit" type="Button" parent="Buttons"]
+layout_mode = 2
+
+[node name="Start" type="Button" parent="Buttons"]
+layout_mode = 2
